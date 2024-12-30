@@ -1,0 +1,121 @@
+  body {
+     background-color:rgb(216, 189, 166); 
+     width: 100%; 
+     height: auto;
+     overflow: show;
+     position: absolute;
+     left: auto ;
+     top: 25px;
+     right: auto ;
+    }
+  .dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+    }
+
+
+ .box{
+     position:relative; 
+     margin: 5px;
+     padding: 10px; 
+     border: 2px solid rgba(0, 0, 0, 0.2);
+     border-radius: 10px;
+     background-color: rgb(209, 153, 107);
+     color:rgb(114, 61, 18);
+     
+    }
+  .box-darkmode{
+    background-color: rgb(209, 153, 107);
+    color:rgb(114, 61, 18);
+    }
+  
+  .bg-image {
+    position: relative; 
+     margin: 5px;
+     padding: 10px; 
+    
+     
+     border-radius: 5px;
+     color:rgb(244, 186, 138);
+     height: 160px;
+    
+    /* The image used */
+    background-image: url("gifs/railway.gif");
+  
+    /* Add the blur effect */
+    filter: blur(6px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-text {
+
+    position:absolute; 
+    margin: 5px;
+    padding: 10px; 
+    width: 740px;
+    height: 165px;
+   
+    border-radius: 10px;
+    padding-left: 13px;
+    top: 13px;
+    left: auto;
+    right: auto;
+    color:rgb(255, 222, 196);
+    z-index: 2;
+    
+  
+  }  
+
+ .links{
+     display: flex;
+     flex-direction: row-reverse;
+   }
+   
+   
+ .oxygen-light {
+     font-family: "Oxygen", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+    }
+    
+ .oxygen-regular {
+     font-family: "Oxygen", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    }
+    
+ .oxygen-bold {
+     font-family: "Oxygen", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+       
+   }
+    
+ .stacks{
+     margin: auto;
+     width: 50%;
+     border: 3px;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+ 
+ .column {
+     float: left;
+     width: 50%;
+   }
+ 
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+   }
